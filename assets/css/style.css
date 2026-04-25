@@ -1,0 +1,189 @@
+/* ===== GENERAL DARK THEME ===== */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+/* Center containers */
+h2 {
+    text-align: center;
+    margin-top: 40px;
+}
+
+/* ===== FORM CONTAINER ===== */
+form {
+    width: 320px;
+    margin: 40px auto;
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+/* Labels */
+label {
+    font-size: 14px;
+}
+
+/* Inputs */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #fff;
+}
+
+/* Focus effect */
+input:focus, select:focus {
+    outline: none;
+    border: 1px solid #4caf50;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Links */
+a {
+    color: #4caf50;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Error / messages */
+.message {
+    text-align: center;
+    color: #ff4d4d;
+    margin-top: 10px;
+}
+
+/* ===== LMS LOGO ===== */
+.logo {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    color: #4caf50;
+}
+
+.logo i {
+    margin-right: 8px;
+}
+
+/* Improve form spacing with icons */
+label i {
+    margin-right: 6px;
+    color: #4caf50;
+}
+
+/* ===== ALERT MESSAGES ===== */
+.alert {
+    width: 320px;
+    margin: 10px auto;
+    padding: 12px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Success */
+.success {
+    background-color: #1e3d2f;
+    color: #4caf50;
+    border: 1px solid #4caf50;
+}
+
+/* Error */
+.error {
+    background-color: #3d1e1e;
+    color: #ff4d4d;
+    border: 1px solid #ff4d4d;
+}
+
+/* DASHBOARD GRID */
+.dashboard {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 20px;
+}
+
+/* CARD STYLE */
+.card {
+    width: 180px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.card i {
+    font-size: 30px;
+    color: #4caf50;
+    margin-bottom: 10px;
+}
+
+.card h3 {
+    margin: 10px 0;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4caf50;
+    text-decoration: none;
+}
+.card h3 {
+    font-size: 28px;
+    margin: 10px 0;
+    color: #4caf50;
+}
+
+.card p {
+    color: #aaa;
+    font-size: 14px;
+}
+.nav-links {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.nav-links a {
+    display: inline-block;
+    margin: 5px 8px;
+    padding: 8px 12px;
+    background-color: #1e1e1e;
+    color: #f1f1f1;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    background-color: #4caf50;
+    color: white;
+}
